@@ -1,0 +1,19 @@
+{
+  "name": "app-insights-rule-match",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@microsoft/applicationinsights-web": "3.4.5",
+    "@telnyx/webrtc": "2.27.10"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6"
+  }
+}

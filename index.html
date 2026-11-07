@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="data:," />
+    <title>Telnyx call_report vs App Insights CORS correlation</title>
+    <style>
+      body { font-family: system-ui, sans-serif; max-width: 52rem; margin: 2rem auto; line-height: 1.5; }
+      pre { background: #f4f4f4; padding: 1rem; white-space: pre-wrap; }
+      .fail { color: #b00020; } .ok { color: #1b5e20; }
+    </style>
+  </head>
+  <body>
+    <h1>Telnyx call_report vs App Insights CORS correlation</h1>
+    <p id="mode"></p>
+    <p>
+      <button id="call" disabled>Call</button>
+      <button id="hangup" disabled>Hang up</button>
+      <a id="toggle"></a>
+    </p>
+    <pre id="log"></pre>
+    <audio id="remote" autoplay></audio>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
